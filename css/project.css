@@ -1,0 +1,59 @@
+/* 중앙 정렬과 카드 디자인 */
+
+h2 {
+  padding-bottom: 66px;
+}
+
+#project-detail {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.project-detail-card {
+  max-width: 900px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+.project-detail-card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.project-block {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #e0e0e0; /* 테두리 추가 */
+  padding-bottom: 2.5rem; /* 패딩 추가 */
+}
+
+.project-block h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.project-block ul {
+  padding-left: 1.4rem;
+  margin: 0;
+  list-style: disc;
+  font-size: 0.95em;
+  line-height: 1.7;
+  color: #444;
+}
+
+.project-block a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.project-block a:hover {
+  text-decoration: none;
+}
